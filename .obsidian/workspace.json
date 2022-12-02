@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "3bd696b931e7a86e",
+    "type": "split",
+    "children": [
+      {
+        "id": "0877c620f793cc34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6569390e8d14e3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DP/分題型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eedbbeffe7a384f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "買賣股票.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4e7166ad892bf0b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a186b0cab7377d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16ef4bbfaaded891",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e441fa841e7711b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "69ec065524a750b4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dcc3e0d86f7a3e00",
+    "type": "split",
+    "children": [
+      {
+        "id": "604333d52f549e05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e5f6efa1cb55ce6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "買賣股票.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a0200ea77a094a33",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "買賣股票.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b180b1b1de2f29e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2e1c0e4310ef524b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "買賣股票.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "eedbbeffe7a384f6",
+  "lastOpenFiles": [
+    "DP/分題型.md",
+    "Graph and Tree/未命名.md"
+  ]
+}
