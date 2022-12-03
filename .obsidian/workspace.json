@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b775a1066a5f7127",
+            "id": "04ef08a4cda79d9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DP/費氏數列.md",
+                "file": "DP/背包問題.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DP/費氏數列.md",
+                "file": "DP/背包問題.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DP/費氏數列.md",
+                "file": "DP/背包問題.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DP/費氏數列.md"
+                "file": "DP/背包問題.md"
               }
             }
           }
@@ -137,12 +137,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b775a1066a5f7127",
+  "active": "04ef08a4cda79d9f",
   "lastOpenFiles": [
-    "DP/背包問題.md",
     "DP/費氏數列.md",
-    "DP/分題型.md",
+    "DP/背包問題.md",
     "DP/路徑問題.md",
+    "Pasted image 20221202192253.png",
+    "DP/子序列問題.md",
+    "DP/分題型.md",
     "DP/買賣股票.md",
     "Graph and Tree/未命名.md"
   ]
