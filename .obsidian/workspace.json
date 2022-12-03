@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "04ef08a4cda79d9f",
+            "id": "567008eadf98976e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DP/背包問題.md",
+                "file": "DP/子序列問題.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfb196ee2c854cf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backtracking + memoization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f64f5baed914d00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DP/DFS + DP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dcc3e0d86f7a3e00",
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DP/背包問題.md",
+                "file": "Backtracking + memoization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DP/背包問題.md",
+                "file": "Backtracking + memoization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DP/背包問題.md"
+                "file": "Backtracking + memoization.md"
               }
             }
           }
@@ -137,15 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "04ef08a4cda79d9f",
+  "active": "bfb196ee2c854cf7",
   "lastOpenFiles": [
-    "DP/費氏數列.md",
-    "DP/背包問題.md",
-    "DP/路徑問題.md",
-    "Pasted image 20221202192253.png",
     "DP/子序列問題.md",
+    "DP/DFS + DP.md",
     "DP/分題型.md",
+    "DP/路徑問題.md",
+    "DP/換零錢問題.md",
+    "DP/背包問題.md",
     "DP/買賣股票.md",
+    "DP/費氏數列.md",
+    "Pasted image 20221202192253.png",
     "Graph and Tree/未命名.md"
   ]
 }
