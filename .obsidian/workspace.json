@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DP/子序列問題.md",
+                "file": "DP/路徑問題.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DP/子序列問題.md",
+                "file": "DP/路徑問題.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DP/子序列問題.md",
+                "file": "DP/路徑問題.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DP/子序列問題.md"
+                "file": "DP/路徑問題.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "a39dc9beb84b530e",
   "lastOpenFiles": [
+    "DP/買賣股票.md",
+    "DP/路徑問題.md",
+    "DP/Backtracking + memoization.md",
+    "DP/子序列問題.md",
     "DP/背包問題.md",
     "DP/換零錢問題.md",
-    "DP/路徑問題.md",
     "DP/費氏數列.md",
-    "DP/買賣股票.md",
-    "DP/Backtracking + memoization.md",
     "DP/DP題型.md",
     "DP/NeetCode All.md",
-    "README.md",
-    "DP/DFS + DP.md"
+    "README.md"
   ]
 }
