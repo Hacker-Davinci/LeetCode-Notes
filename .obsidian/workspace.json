@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BST 路徑.md",
+                "file": "DP/DFS + DP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BST 路徑.md",
+                "file": "DP/DFS + DP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BST 路徑.md"
+                "file": "DP/DFS + DP.md"
               }
             }
           }
@@ -173,14 +172,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "242a0ffa725a7830",
+  "active": "20e90b9ddeb5871a",
   "lastOpenFiles": [
+    "BST 路徑.md",
+    "DP/DFS + DP.md",
     "Graph and Tree/Binary Search Tree 題型.md",
     "Pasted image 20221204120444.png width=50%}.md",
-    "BST 路徑.md",
     "DP/路徑問題.md",
     "未命名.md",
-    "DP/DFS + DP.md",
     "DP/Backtracking + memoization.md",
     "DP/DP題型.md",
     "DP/NeetCode All.md",
