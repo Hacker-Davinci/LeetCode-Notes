@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "09eb2bc3f76d2c5b",
+        "id": "f08219efc35b4d65",
         "type": "tabs",
         "children": [
           {
-            "id": "20e90b9ddeb5871a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DP/DFS + DP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2444a7a56540f413",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph and Tree/Binary Search Tree 題型.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "242a0ffa725a7830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BST 路徑.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6931879e5905188f",
+            "id": "78f8e9b355a418cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -121,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DP/DFS + DP.md",
+                "file": "DP/NeetCode All.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DP/DFS + DP.md",
+                "file": "DP/NeetCode All.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DP/DFS + DP.md"
+                "file": "DP/NeetCode All.md"
               }
             }
           }
@@ -172,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "20e90b9ddeb5871a",
+  "active": "78f8e9b355a418cd",
   "lastOpenFiles": [
-    "BST 路徑.md",
-    "DP/DFS + DP.md",
-    "Graph and Tree/Binary Search Tree 題型.md",
-    "Pasted image 20221204120444.png width=50%}.md",
-    "DP/路徑問題.md",
-    "未命名.md",
-    "DP/Backtracking + memoization.md",
-    "DP/DP題型.md",
+    "DP/Matrix Chain Multiplication.md",
     "DP/NeetCode All.md",
-    "DP/回文問題.md"
+    "DP/DFS + DP.md",
+    "DP/買賣股票.md",
+    "Graph and Tree/BST 路徑.md",
+    "DP/背包問題.md",
+    "DP/子序列問題.md",
+    "DP/回文問題.md",
+    "DP/換零錢問題.md",
+    "DP/費氏數列.md"
   ]
 }
