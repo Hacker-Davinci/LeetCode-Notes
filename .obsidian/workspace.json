@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "f08219efc35b4d65",
+        "id": "f2334df5aa1b437c",
         "type": "tabs",
         "children": [
           {
-            "id": "78f8e9b355a418cd",
+            "id": "5b6fe38d586ba92e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DP/NeetCode All.md",
+                "file": "Graph and Tree/Binary Search Tree 題型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f57872feec946139",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph and Tree/經典題目.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37cd630f8b9b03f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LET'S GO GOOGLER.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DP/NeetCode All.md",
+                "file": "LET'S GO GOOGLER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DP/NeetCode All.md",
+                "file": "LET'S GO GOOGLER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DP/NeetCode All.md"
+                "file": "LET'S GO GOOGLER.md"
               }
             }
           }
@@ -136,17 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "78f8e9b355a418cd",
+  "active": "37cd630f8b9b03f3",
   "lastOpenFiles": [
+    "Graph and Tree/經典題目.md",
+    "Graph and Tree/Binary Search Tree 題型.md",
+    "Graph and Tree/BST 路徑.md",
+    "DP/路徑問題.md",
+    "DP/DP題型.md",
     "DP/Matrix Chain Multiplication.md",
     "DP/NeetCode All.md",
     "DP/DFS + DP.md",
-    "DP/買賣股票.md",
-    "Graph and Tree/BST 路徑.md",
-    "DP/背包問題.md",
-    "DP/子序列問題.md",
-    "DP/回文問題.md",
-    "DP/換零錢問題.md",
-    "DP/費氏數列.md"
+    "DP/Backtracking + memoization.md",
+    "DP/背包問題.md"
   ]
 }
