@@ -296,12 +296,82 @@ public:
 ```
 
 
-153.Find Minimum in Rotated Sorted Array
+378.Kth Smallest Element in a Sorted Matrix
+二分搜答案，而不是 index，respect
 ```cpp
 
+class Solution {
+public:
+    int kthSmallest(vector<vector<int>>& matrix, int k) {
+        int m = matrix.size(), n = matrix[0].size();
+        int l = matrix[0][0], r = matrix[n-1][n-1], mid;
+        int greater_equal_cnt;
+        while(l < r){
+            mid = l + (r-l) / 2;
+            greater_equal_cnt = 0;
+            for(int i = 0; i < m; ++i){
+                greater_equal_cnt += \
+                    upper_bound(matrix[i].begin(), matrix[i].end(), mid) - matrix[i].begin();
+            }
+            if(greater_equal_cnt >= k) r = mid;
+            else l = mid+1;
+        }
+        return l;
+    }
+};
+```
+1898.Maximum Number of Removable Characters.
+```cpp
+class Solution {
+public:
+    int maximumRemovals(string s, string p, vector<int>& removable) {
+        int l = 0, r = removable.size()+1, mid;
+        int ans = 0;
+        while(l < r){
+            mid = l + (r-l) / 2;
+            if( !isable(mid, removable, s, p)) r = mid;
+            else{
+                ans = max(ans, mid);
+                l = mid + 1;
+            }
+        }
+        // 111111 000000
+        return ans;
+    }
+    bool isable(int &k, vector<int>& removable, string &s, string &p){
+        int i = 0, j = 0;
+        unordered_set<int> vis(removable.begin(), removable.begin()+k);
+        int m = s.size(), n = p.size();
+        while(i < m && j < n){
+            if(vis.count(i) || s[i] != p[j]) i++;
+            else i++, j++;
+        }
+        return j == n;
+    }
+};
 ```
 
 
+
+153.Find Minimum in Rotated Sorted Array
+```cpp
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int l = 0, r = nums.size()-1, mid;
+        // if nums[l] < nums[r] return nums[l];
+        return find(l, r, nums);
+    }
+    int find(int l, int r, vector<int>& nums){
+        if(nums[l] <= nums[r]) return nums[l];
+        int mid = (l+r) / 2;
+        int ans = min(find(l, mid, nums), find(mid+1, r, nums));
+        return ans;
+    }
+};
+```
+
+![[Pasted image 20221210152226.png]]
 
 
 162.Find Peak Element
@@ -314,5 +384,130 @@ public:
 275.H-Index II
 ```cpp
 
+```
+
+
+981.Time Based Key-Value Store
+```cpp
+一些 mp 筆記
+mp.lower_bound(value);
+mp.upper_bound(value);
+ex: auto it = mp.upper_bound(value);
+	auto it2 = it;
+	it2--;
+	if(it == mp.begin()) it2 == it;
+```
+
+```cpp
+class TimeMap {
+public:
+    unordered_map<string, map<int, string>> mp;
+    TimeMap() {
+        mp.clear();
+    }
+    // SET KEY WITH VALUE AT TIME 
+    void set(string key, string value, int timestamp) {
+        mp[key][timestamp] = value;
+    }
+    // no -> ""
+    // yes largest timestamp_prev
+    string get(string key, int timestamp) {
+        auto it = mp[key].upper_bound(timestamp);
+        // auto it = lower_bound(mp[key].begin(), mp[key].end(), timestamp);
+        if(it == mp[key].begin()) return "";
+        it--;
+        return it->second;   
+    }
+};
+```
+
+
+
+```cpp
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+    // get lower bound
+    // get upper bound
+    // if not found, return -1
+        int left = -1, right = -1;
+        left = lower_bound(nums.begin(), nums.end(), target) - nums.begin();
+        right = upper_bound(nums.begin(), nums.end(), target) - nums.begin();
+        right--;
+        if(left >= nums.size() || (nums[left] != target))
+            return {-1, -1};
+        return {left, right};
+    }
+};
+```
+
+```cpp
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        int l = 0, r = nums.size(), mid;
+        int lower, upper;
+        while(l < r){
+            mid = l + (r-l) / 2;
+            if(nums[mid] >= target)
+                r = mid;
+            else
+                l = mid+1;
+        }
+        if(l == nums.size() || nums[l] != target) return {-1, -1};
+        lower = l;
+        l = 0, r = nums.size();
+        while(l < r){
+            mid = l + (r-l) / 2;
+            if(nums[mid] > target)
+                r = mid;
+            else
+                l = mid+1;
+        }
+        l--;
+        upper = l;
+        return {lower, upper};
+    }
+};
+```
+
+
+
+
+1268.Search Suggestions System
+```cpp
+class Solution {
+public:
+    vector<vector<string>> suggestedProducts(vector<string>& products, string word) {
+        // if len < requrired || substr is not the same, break
+        vector<vector<string>> ans;
+        sort(products.begin(), products.end());
+        int m = products.size();
+        int n = word.size();
+        for(int i  = 1; i <= n; ++i){
+            string match = word.substr(0, i);
+            int ptr = bs(products, word, match);
+            if(ptr == m) break;
+            if(products[ptr].substr(0, i) != match) break;
+            vector<string> cur;
+            for(int j = 0; j < 3 && ptr+j < m; ++j){
+                if(products[ptr+j].substr(0, i) != match) break;
+                cur.push_back(products[ptr+j]);
+            }   
+            ans.push_back(cur);
+        }
+        while(ans.size() < n) ans.push_back({});
+        return ans;
+    }
+    int bs(vector<string>& products, string &word, string &match){
+        int l = 0, r = products.size(), mid;
+        while(l < r){
+            mid = l + (r-l) / 2;
+            if(products[mid] >= match) r = mid;
+            else l = mid+1;
+        }
+        return l;
+    }
+};
 ```
 

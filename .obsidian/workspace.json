@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "141777e2a152591e",
+        "id": "eb56ef2d699f16c1",
         "type": "tabs",
         "children": [
           {
-            "id": "6127dca57e508296",
+            "id": "d715cfda305aaafb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binary Search.md",
+                "file": "MATH & Geometry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5bf49dbbd964db1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3917f290d1932ffb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LET'S GO GOOGLER.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc486eec3256f63a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interval.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dcc3e0d86f7a3e00",
@@ -86,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Binary Search.md",
+                "file": "LET'S GO GOOGLER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Binary Search.md",
+                "file": "LET'S GO GOOGLER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Binary Search.md"
+                "file": "LET'S GO GOOGLER.md"
               }
             }
           }
@@ -137,17 +173,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6127dca57e508296",
+  "active": "3917f290d1932ffb",
   "lastOpenFiles": [
-    "LET'S GO GOOGLER.md",
-    "Binary Search.md",
-    "Design.md",
-    "Queue.md",
+    "Priority_Queue.md",
+    "Interval.md",
     "Stack.md",
-    "Array.md",
-    "Graph and Tree/經典題目.md",
-    "Graph and Tree/Binary Search Tree 題型.md",
-    "Graph and Tree/BST 路徑.md",
-    "DP/路徑問題.md"
+    "MATH & Geometry.md",
+    "Pasted image 20221211131537.png",
+    "LET'S GO GOOGLER.md",
+    "未命名.md",
+    "SORTING AND SEARCHING.md",
+    "README.md",
+    "Design.md"
   ]
 }
